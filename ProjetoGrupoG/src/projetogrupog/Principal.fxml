@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="769.0" prefWidth="1023.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projetogrupog.PrincipalController">
+   <children>
+      <TabPane layoutY="38.0" prefHeight="876.0" prefWidth="930.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="38.0">
+         <tabs>
+            <Tab text="PROJETO ARQUITÔNICO">
+               <content>
+                  <AnchorPane focusTraversable="true" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="171.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Elaboração de proposta">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="136.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Reuniao inicial/Briefing">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="346.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Estudo preliminar">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="311.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Pesquisa de referências">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="276.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Visita ao local">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="241.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Elaboração de contrato">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="206.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Reunião aprest. proposta">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="381.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Reunião de aprest. Estudo">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="416.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Projeto Arquitetônico / Layout">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="451.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Estudo Fachada 3D">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <Button layoutX="769.0" layoutY="623.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="206.0" text="Gerar orçamento">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <ChoiceBox layoutX="451.0" layoutY="141.0" prefHeight="25.0" prefWidth="261.0">
+                           <contextMenu>
+                              <ContextMenu>
+                                 <items>
+                                    <MenuItem mnemonicParsing="true" text="Teste" />
+                                 </items>
+                              </ContextMenu>
+                           </contextMenu>
+                           <cursor>
+                              <Cursor fx:constant="DEFAULT" />
+                           </cursor>
+                        </ChoiceBox>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="PROJETO DE PREFEITURA">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="171.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Documentação">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="136.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Projeto mancha">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <Button layoutX="769.0" layoutY="623.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="206.0" text="Gerar orçamento">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="PROJETO DE CONDOMINIO">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="171.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Documentação">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="136.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Projeto com normas">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <Button layoutX="769.0" layoutY="623.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="206.0" text="Gerar orçamento">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="MAQUETE ELETRONICA">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="136.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Maquete 3D">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <Button layoutX="769.0" layoutY="623.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="206.0" text="Gerar orçamento">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="PROJETO EXECUTIVO">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="171.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="PE - cotas">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="136.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Reunião ">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="346.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="PE - Paisagismo">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="311.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="PE - paginação">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="276.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="PE - luminotecnico / forro">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="241.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="PE - pontos eletricos">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="206.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="PE - hidraulico">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="20.0" layoutY="381.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Reunião ajuste">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <Button layoutX="769.0" layoutY="623.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="206.0" text="Gerar orçamento">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="DETALHAMENTO">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <CheckBox contentDisplay="RIGHT" layoutX="21.0" layoutY="124.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="296.0" text="Reunião ajuste interiores">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <CheckBox contentDisplay="RIGHT" layoutX="21.0" layoutY="89.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="311.0" text="Projeto por ambiente / Marcenaria">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </CheckBox>
+                        <Button layoutX="769.0" layoutY="623.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="206.0" text="Gerar orçamento">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </AnchorPane>
+               </content>
+            </Tab>
+         </tabs>
+      </TabPane>
+      <MenuBar layoutY="7.0" prefHeight="32.0" prefWidth="1023.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Close" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
