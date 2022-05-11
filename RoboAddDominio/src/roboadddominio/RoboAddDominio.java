@@ -13,7 +13,7 @@ public class RoboAddDominio {
 
     public static void main(String[] args) throws AWTException {
         Robot r = new Robot();
-        for (int i = 0; i<225; i++){
+        for (int i = 0; i<1; i++){
         r.setAutoDelay(150);               
         r.mouseMove(1000, 10);  //EXCEL
         r.mousePress(InputEvent.BUTTON1_DOWN_MASK);
